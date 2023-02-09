@@ -134,6 +134,13 @@ module.exports = (env, argv) =>{
                 favicon: './src/assets/iconos/javascript.png'
             }),
 
+            new HtmlWebpackPlugin({
+                title: 'Nosotros',
+                filename:'nosotros.html',
+                template: './src/nosotros.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+
             
             
             new MiniCssExtractPlugin({
@@ -280,7 +287,15 @@ module.exports = (env, argv) =>{
                 // filename: 'index.html',
                 template: './src/index.html',
                 favicon: './src/assets/iconos/javascript.png'                
-            }),            
+            }),
+            
+            new HtmlWebpackPlugin({
+                title: 'Nosotros',
+                filename:'nosotros.html',
+                template: './src/nosotros.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+
             
             new MiniCssExtractPlugin({
                 filename: '[name].[fullhash].css',
