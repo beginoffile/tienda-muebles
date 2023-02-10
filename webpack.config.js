@@ -135,11 +135,26 @@ module.exports = (env, argv) =>{
             }),
 
             new HtmlWebpackPlugin({
-                title: 'Nosotros',
+                title: 'Ecommerce - Nosotros',
                 filename:'nosotros.html',
                 template: './src/nosotros.html',
                 favicon: './src/assets/iconos/javascript.png'
             }),
+
+            
+            new HtmlWebpackPlugin({
+                title: 'Ecommerce - Tienda',
+                filename:'tienda.html',
+                template: './src/tienda.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+            new HtmlWebpackPlugin({
+                title: 'Ecommerce - Blog',
+                filename:'blog.html',
+                template: './src/blog.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+
 
             
             
@@ -290,11 +305,26 @@ module.exports = (env, argv) =>{
             }),
             
             new HtmlWebpackPlugin({
-                title: 'Nosotros',
+                title: 'Ecommerce - Nosotros',
                 filename:'nosotros.html',
                 template: './src/nosotros.html',
                 favicon: './src/assets/iconos/javascript.png'
             }),
+
+            
+            new HtmlWebpackPlugin({
+                title: 'Ecommerce - Tienda',
+                filename:'tienda.html',
+                template: './src/tienda.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+            new HtmlWebpackPlugin({
+                title: 'Ecommerce - Blog',
+                filename:'blog.html',
+                template: './src/blog.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+
 
             
             new MiniCssExtractPlugin({
