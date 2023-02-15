@@ -156,6 +156,27 @@ module.exports = (env, argv) =>{
             }),
 
 
+            new HtmlWebpackPlugin({
+                title: 'Ecommerce - Entrada',
+                filename:'entrada.html',
+                template: './src/entrada.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+
+            new HtmlWebpackPlugin({
+                title: 'Ecommerce - Galería',
+                filename:'galeria.html',
+                template: './src/galeria.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+
+            new HtmlWebpackPlugin({
+                title: 'Ecommerce - Contacto',
+                filename:'contacto.html',
+                template: './src/contacto.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+
             
             
             new MiniCssExtractPlugin({
@@ -322,6 +343,28 @@ module.exports = (env, argv) =>{
                 title: 'Ecommerce - Blog',
                 filename:'blog.html',
                 template: './src/blog.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+
+            new HtmlWebpackPlugin({
+                title: 'Ecommerce - Entrada',
+                filename:'entrada.html',
+                template: './src/entrada.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+
+            
+            new HtmlWebpackPlugin({
+                title: 'Ecommerce - Galería',
+                filename:'galeria.html',
+                template: './src/galeria.html',
+                favicon: './src/assets/iconos/javascript.png'
+            }),
+
+            new HtmlWebpackPlugin({
+                title: 'Ecommerce - Contacto',
+                filename:'contacto.html',
+                template: './src/contacto.html',
                 favicon: './src/assets/iconos/javascript.png'
             }),
 
