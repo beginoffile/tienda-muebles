@@ -104,9 +104,9 @@ module.exports = (env, argv) =>{
         plugins: [
 
             new WebpackPwaManifest({
-                name: 'Nombre de la App',
-                short_name: 'App',
-                description: 'App Template',
+                name: 'Tienda de Muebles',
+                short_name: 'Muebles',
+                description: 'Sitio para la Tienda de Muebles',
                 theme_color: '#8C54A4',
                 background_color: '#8C54A4',
                 display: 'standalone',
