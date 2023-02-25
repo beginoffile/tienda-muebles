@@ -80,6 +80,13 @@ img{
     transition: background-color 0.3s ease-in-out;
     text-align: center;
     border: none;
+    width: 100%;
+}
+
+@media(min-width:768px){
+    .btn{
+        width: auto;
+    }
 }
 
 .btn:hover{
@@ -411,6 +418,16 @@ img{
     padding-bottom: 2rem;
 }
 
+.entrada h2{
+    text-align: center;
+}
+
+@media(min-width:768px){
+    .entrada h2{
+        text-align: left;
+    }
+}
+
 .contenido-blog{
     padding: 2rem;
 }
@@ -437,6 +454,7 @@ img{
 
 .contenido-entrada-blog{
     width:60rem;
+    max-width: 100%;
     margin: 0 auto;
 }
 
@@ -446,8 +464,14 @@ img{
     padding: 0;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(3,1fr);
+    grid-template-columns: 1fr;
     gap:2rem;
+}
+
+@media(min-width:768px){
+    .galeria{
+        grid-template-columns: repeat(3,1fr);
+    }
 }
 
 .galeria img{
