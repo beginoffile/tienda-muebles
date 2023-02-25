@@ -102,7 +102,7 @@ img{
     text-align: center;
 }
 
-@media (width:768px){
+@media(min-width:768px){
     .max-width-30{
         max-width: 30rem;
     }
