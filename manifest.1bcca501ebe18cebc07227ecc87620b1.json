@@ -41,12 +41,12 @@
       "type": "image/png"
     }
   ],
-  "name": "Nombre de la App",
-  "short_name": "App",
+  "name": "Tienda de Muebles",
+  "short_name": "Muebles",
   "orientation": "portrait",
   "display": "standalone",
   "start_url": "./",
-  "description": "App Template",
+  "description": "Sitio para la Tienda de Muebles",
   "theme_color": "#8C54A4",
   "background_color": "#8C54A4",
   "dir": ""
